@@ -1,0 +1,103 @@
+@import url(https://fonts.google.com/specimen/Titillium+Web);
+
+.hamburger:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20px;
+    background-color: white;
+    height: 2px;
+}
+
+.hamburger {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.hamburgerSpan {
+    position: absolute;
+    top: 9px;
+    width: 20px;
+    background-color: white;
+    height: 2px;
+}
+
+.hamburger:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    background-color: white;
+    height: 2px;
+}
+
+.header {
+    background: #615DFA;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.headerInformation {
+    display: flex;
+    align-items: center;
+}
+
+.headerBrand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.headerBrandText {
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.headerLink {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0px 24px;
+}
+
+.headerLink:hover {
+    color: #23D2E2;
+}
+
+.login {
+    margin: 0px 28px 0px 32px;
+    padding: 0px 26px;
+    background: #23D2E2;
+    font-size: 14px;
+    color: white;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 1em;
+    color: white;
+}
+
+@media (max-width: 1439px) {
+    .headerBrandText {
+        display: none;
+    }
+}

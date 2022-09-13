@@ -1,0 +1,21 @@
+.navbar {
+    background: white;
+    grid-area: navbar;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.menu {
+    position: fixed;
+}
+
+.link{
+    text-decoration: none;
+    color: #3E3F5E;
+}
+
+@media (max-width: 1439px) {
+    .navbar {
+        display: none;
+    }
+}

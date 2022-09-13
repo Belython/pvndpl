@@ -1,0 +1,11 @@
+.navigationLink {
+    cursor: pointer;
+    margin-top: 16px;
+    color: #8f91ac;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.navigationLink:hover{
+    color: gold;
+}

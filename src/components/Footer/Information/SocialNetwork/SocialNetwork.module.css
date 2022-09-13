@@ -1,0 +1,9 @@
+.linkSocialNetwork {
+    text-decoration: none;
+    color: black;
+    margin-right: 26px;
+}
+
+.linkSocialNetwork:hover {
+    color: #23D2E2;
+}

@@ -1,0 +1,43 @@
+.menuItem{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    margin: 0px 0px 20px;
+    padding: 0px 16px;
+}
+
+.menuItem:hover{
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.menuItem:hover .link{
+    color:#23D2E2;
+}
+
+.menuItem:hover .linkText{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3E3F5E;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.linkText {
+    margin-left: 10px;
+}
+
+.activeLink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    color:#23D2E2;
+}

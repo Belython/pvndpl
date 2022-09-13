@@ -1,0 +1,31 @@
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigationText {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navigationLink {
+    cursor: pointer;
+    margin-top: 16px;
+    color: #8f91ac;
+    font-size: 0.8rem;
+}
+
+.navigationLink:hover {
+    color: #23D2E2;
+}
+
+@media (max-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+
+    .navigationText {
+        display: none;
+    }
+}

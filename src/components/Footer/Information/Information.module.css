@@ -1,0 +1,53 @@
+.infoBrand {
+    display: flex;
+    align-items: center;
+}
+
+.infoBrandTitle {
+    font-size: 1.375rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.infoBrandText {
+    margin-top: 2px;
+    color: #8f91ac;
+    font-size: 0.625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.infoLinkSocialNetwork {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.infoText {
+    width: 284px;
+    margin-top: 26px;
+    color: #8f91ac;
+    font-size: 0.875rem;
+    line-height: 1.7142857143em;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+
+@media (max-width: 1024px) {
+    .brand {
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand {
+        display: none;
+    }
+}

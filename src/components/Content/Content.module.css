@@ -1,0 +1,21 @@
+.content {
+    background: #f8f8fb;
+}
+
+
+.headerImg {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background: url("https://p2.zoon.ru/preview/dKUKtI8jTdothfpXPef5tw/2400x1500x75/1/d/8/original_57dee1d340c088054b8b547a_5a641c8949867.jpg");
+    width: 98%;
+    height: 300px;
+    margin: auto auto 10px;
+    overflow: hidden;
+}
+
+
+@media (max-width: 425px) {
+    .headerImg {
+        display: none;
+    }
+}

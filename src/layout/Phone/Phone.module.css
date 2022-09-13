@@ -1,0 +1,15 @@
+.App {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "content content"
+    "menu menu";
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 80px 1fr 100px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content{
+    grid-area: content;
+}

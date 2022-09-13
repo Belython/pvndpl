@@ -1,0 +1,65 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.widgetBox {
+    padding: 32px 28px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 40px 0 rgba(94, 92, 154, .06);;
+    margin-bottom: 10px;
+    margin-right: 1em;
+    margin-left: 1em;
+    width: auto;
+}
+
+.informationLine {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainTitle {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #3E3F5E;
+    margin-bottom: 10px;
+}
+
+.interestsTitle {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.informationTitle {
+    color: #8f91ac;
+    flex-shrink: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4285714286em;
+    word-break: break-word;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 150px;
+}
+
+.informationText {
+    color: #3E3F5E;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4285714286em;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1439px) {
+    .main {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .informationTitle {
+        width: 100px;
+    }
+}

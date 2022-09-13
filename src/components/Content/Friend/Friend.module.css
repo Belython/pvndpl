@@ -1,0 +1,85 @@
+.Friend {
+}
+
+.users {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 40px 0 rgba(94, 92, 154, .06);
+    align-items: center;
+    margin: 15px;
+}
+
+.preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headerInfoImg {
+    height: 256px;
+    width: 256px;
+    border-radius: 50%;
+
+}
+
+.name {
+    font-size: 1.5rem;
+    color: #3E3F5E;
+    text-align: center;
+}
+
+.tag {
+    color: #3E3F5E;
+    text-align: center;
+}
+
+.info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.socialNetworks {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialNetwork {
+    margin-right: 15px;
+}
+
+.socialNetwork:hover {
+    color: #23D2E2;
+    cursor: pointer;
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+@media screen and (max-width: 1162px) {
+    .users {
+        grid-template-columns: repeat(2, auto);
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    .users {
+        grid-template-columns: 1fr;
+    }
+
+    .headerInfoImg {
+        height: 128px;
+        width: 128px;
+    }
+
+}
