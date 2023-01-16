@@ -47,6 +47,7 @@
 .headerInformation {
     display: flex;
     align-items: center;
+    
 }
 
 .headerBrand {
@@ -60,6 +61,8 @@
 .headerBrandText {
     font-size: 20px;
     font-family: 'Titillium Web', sans-serif;
+    margin-right: 15px;
+    color: white;
 }
 
 .headerLink {

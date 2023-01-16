@@ -1,14 +1,13 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Settings from './Settings';
+import NewsFeed from './Settings';
 
-describe('<Settings />', () => {
+describe('<NewsFeed />', () => {
   test('it should mount', () => {
-    render(<Settings />);
-    
-    const settings = screen.getByTestId('Settings');
+    const element = render(<NewsFeed />);
 
-    expect(settings).toBeInTheDocument();
+    expect(element).toMatchSnapshot();
+
   });
 });

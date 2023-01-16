@@ -1,0 +1,21 @@
+.HeaderContent {
+    margin-left: 1em;
+}
+
+.name{
+    color: #3e3f5e;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section{
+    margin-top: 8px;
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+
+.count{
+    margin-left: 16px;
+    color: #23d2e2;
+}

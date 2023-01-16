@@ -8,6 +8,7 @@
     grid-template-rows: 80px 1fr 20%;
 }
 
-.content{
+.content {
     grid-area: content;
+    background: #f8f8fb;
 }

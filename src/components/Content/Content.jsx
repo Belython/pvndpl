@@ -7,8 +7,12 @@ import Posts from "./Posts/Posts";
 import Photos from "./Photos/Photos";
 import Friend from "./Friend/Friend";
 import Group from "./Group/Group";
+import axios from '../../redux/axios';
+import Cookies from 'js-cookie';
+import React, { useState, useEffect } from 'react';
 
 const Content = () => {
+
     return (
         <div className={style.content}>
             <div className={style.headerImg}>
@@ -16,11 +20,10 @@ const Content = () => {
             <UserInfo/>
             <Navigation/>
             <Routes>
-                <Route path="about" element={<About />} />
+                <Route path="about" element={<About/>} />
                 <Route path="posts" element={<Posts/>} />
                 <Route path="friends" element={<Friend/>} />
                 <Route path="groups" element={<Group/>} />
-                <Route path="photos" element={<Photos/>} />
             </Routes>
         </div>
     );

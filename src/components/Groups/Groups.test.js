@@ -5,10 +5,9 @@ import Groups from './Groups';
 
 describe('<Groups />', () => {
   test('it should mount', () => {
-    render(<Groups />);
-    
-    const groups = screen.getByTestId('Groups');
+    const element = render(<Groups />);
 
-    expect(groups).toBeInTheDocument();
+    expect(element).toMatchSnapshot();
+
   });
 });

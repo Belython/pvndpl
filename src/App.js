@@ -4,12 +4,12 @@ import Phone from "./layout/Phone/Phone";
 import Desktop from "./layout/Dekstop/Desktop";
 
 
-const App = () => {
+const App = (props) => {
     const isPhone = useMediaQuery('(max-width:1439px)');
     if (isPhone) {
-        return <Phone/>;
+        return <Phone state={props.state} dispatch={props.dispatch}/>;
     } else {
-        return <Desktop/>;
+        return <Desktop state={props.state} dispatch={props.dispatch}/>;
     }
 }
 

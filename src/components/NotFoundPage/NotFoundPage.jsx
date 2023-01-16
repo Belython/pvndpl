@@ -9,7 +9,7 @@ const NotFoundPage = () => (
           <p className={styles.subtitle}>Ой!!...</p>
           <p className={styles.text}> Похоже, вы свернули не туда и столкнулись с черной дырой в сети, которая поглотила страницу, которую вы искали! Но не паникуйте, потому что вы можете вернуться!</p>
           <p className={styles.text}> Если проблема не устранена, отправьте нам электронное письмо в нашу службу поддержки по адресу pvndpl@mail.ru</p>
-          <Link className={styles.button} to={"/pvndpl-front/content"}>На главную</Link>
+          <Link className={styles.button} to={"/pvndpl-front"}>На главную</Link>
       </div>
   </div>
 );

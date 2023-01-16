@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> it should mount 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="main"
+      >
+        <div
+          class="widgetBox"
+        >
+          <p
+            class="mainTitle"
+          >
+            Обо мне
+          </p>
+          <p
+            class="informationText"
+          >
+            Привет! Меня зовут Александр! У меня есть учетная запись GitHub, где я заливаю код.
+          </p>
+          <div
+            class="informationLine"
+          >
+            <p
+              class="informationTitle"
+            >
+              Дата создания
+            </p>
+            <p
+              class="informationText"
+            >
+               10 август 2022
+            </p>
+          </div>
+          <div
+            class="informationLine"
+          >
+            <p
+              class="informationTitle"
+            >
+              Город
+            </p>
+            <p
+              class="informationText"
+            >
+               Санкт-петербург, Россия
+            </p>
+          </div>
+          <div
+            class="informationLine"
+          >
+            <p
+              class="informationTitle"
+            >
+              Сайт
+            </p>
+            <a
+              class="informationText"
+              href="https://vk.com/belython"
+            >
+               https://vk.com/belython
+            </a>
+          </div>
+        </div>
+        <div
+          class="widgetBox"
+        >
+          <p
+            class="mainTitle"
+          >
+            Интересы
+          </p>
+          <div>
+            <p
+              class="interestsTitle"
+            >
+              Любимые ТВ шоу
+            </p>
+            <p
+              class="informationText"
+            >
+               Breaking Good, RedDevil, People of Interest, The Running Dead, Found, American Guy, The Last Windbender, Game of Wars.
+            </p>
+          </div>
+          <div>
+            <p
+              class="interestsTitle"
+            >
+              Любимые Исполнители / Артисты
+            </p>
+            <p
+              class="informationText"
+            >
+               Iron Maid, DC/AC, Megablow, Kung Fighters, System of a Revenge, Rammstown.
+            </p>
+          </div>
+          <div>
+            <p
+              class="interestsTitle"
+            >
+              Любимые фильмы
+            </p>
+            <p
+              class="informationText"
+            >
+               Goodfellas, The Green Mile, Casino
+            </p>
+          </div>
+          <div>
+            <p
+              class="interestsTitle"
+            >
+              Любимые книги
+            </p>
+            <p
+              class="informationText"
+            >
+               Goodfellas, 1984, Brave New World
+            </p>
+          </div>
+          <div>
+            <p
+              class="interestsTitle"
+            >
+              Любимые игры
+            </p>
+            <p
+              class="informationText"
+            >
+               The witcher, TES V: Skyrim, GTA, CS:GO, DOTA 2
+            </p>
+          </div>
+        </div>
+        <div
+          class="widgetBox"
+        >
+          <p
+            class="mainTitle"
+          >
+            Персональная информация
+          </p>
+          <div
+            class="informationLine"
+          >
+            <p
+              class="informationTitle"
+            >
+              Email
+            </p>
+            <p
+              class="informationText"
+            >
+               velikodnji@mail.ru
+            </p>
+          </div>
+          <div
+            class="informationLine"
+          >
+            <p
+              class="informationTitle"
+            >
+              День рождение
+            </p>
+            <p
+              class="informationText"
+            >
+               2 октября 2001
+            </p>
+          </div>
+          <div
+            class="informationLine"
+          >
+            <p
+              class="informationTitle"
+            >
+              Занятость
+            </p>
+            <p
+              class="informationText"
+            >
+               Web Developer
+            </p>
+          </div>
+          <div
+            class="informationLine"
+          >
+            <p
+              class="informationTitle"
+            >
+              Родной город
+            </p>
+            <p
+              class="informationText"
+            >
+               Волжский, Россия
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="main"
+    >
+      <div
+        class="widgetBox"
+      >
+        <p
+          class="mainTitle"
+        >
+          Обо мне
+        </p>
+        <p
+          class="informationText"
+        >
+          Привет! Меня зовут Александр! У меня есть учетная запись GitHub, где я заливаю код.
+        </p>
+        <div
+          class="informationLine"
+        >
+          <p
+            class="informationTitle"
+          >
+            Дата создания
+          </p>
+          <p
+            class="informationText"
+          >
+             10 август 2022
+          </p>
+        </div>
+        <div
+          class="informationLine"
+        >
+          <p
+            class="informationTitle"
+          >
+            Город
+          </p>
+          <p
+            class="informationText"
+          >
+             Санкт-петербург, Россия
+          </p>
+        </div>
+        <div
+          class="informationLine"
+        >
+          <p
+            class="informationTitle"
+          >
+            Сайт
+          </p>
+          <a
+            class="informationText"
+            href="https://vk.com/belython"
+          >
+             https://vk.com/belython
+          </a>
+        </div>
+      </div>
+      <div
+        class="widgetBox"
+      >
+        <p
+          class="mainTitle"
+        >
+          Интересы
+        </p>
+        <div>
+          <p
+            class="interestsTitle"
+          >
+            Любимые ТВ шоу
+          </p>
+          <p
+            class="informationText"
+          >
+             Breaking Good, RedDevil, People of Interest, The Running Dead, Found, American Guy, The Last Windbender, Game of Wars.
+          </p>
+        </div>
+        <div>
+          <p
+            class="interestsTitle"
+          >
+            Любимые Исполнители / Артисты
+          </p>
+          <p
+            class="informationText"
+          >
+             Iron Maid, DC/AC, Megablow, Kung Fighters, System of a Revenge, Rammstown.
+          </p>
+        </div>
+        <div>
+          <p
+            class="interestsTitle"
+          >
+            Любимые фильмы
+          </p>
+          <p
+            class="informationText"
+          >
+             Goodfellas, The Green Mile, Casino
+          </p>
+        </div>
+        <div>
+          <p
+            class="interestsTitle"
+          >
+            Любимые книги
+          </p>
+          <p
+            class="informationText"
+          >
+             Goodfellas, 1984, Brave New World
+          </p>
+        </div>
+        <div>
+          <p
+            class="interestsTitle"
+          >
+            Любимые игры
+          </p>
+          <p
+            class="informationText"
+          >
+             The witcher, TES V: Skyrim, GTA, CS:GO, DOTA 2
+          </p>
+        </div>
+      </div>
+      <div
+        class="widgetBox"
+      >
+        <p
+          class="mainTitle"
+        >
+          Персональная информация
+        </p>
+        <div
+          class="informationLine"
+        >
+          <p
+            class="informationTitle"
+          >
+            Email
+          </p>
+          <p
+            class="informationText"
+          >
+             velikodnji@mail.ru
+          </p>
+        </div>
+        <div
+          class="informationLine"
+        >
+          <p
+            class="informationTitle"
+          >
+            День рождение
+          </p>
+          <p
+            class="informationText"
+          >
+             2 октября 2001
+          </p>
+        </div>
+        <div
+          class="informationLine"
+        >
+          <p
+            class="informationTitle"
+          >
+            Занятость
+          </p>
+          <p
+            class="informationText"
+          >
+             Web Developer
+          </p>
+        </div>
+        <div
+          class="informationLine"
+        >
+          <p
+            class="informationTitle"
+          >
+            Родной город
+          </p>
+          <p
+            class="informationText"
+          >
+             Волжский, Россия
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

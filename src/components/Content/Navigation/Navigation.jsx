@@ -24,9 +24,6 @@ const Navigation = () => {
                 <NavLink className={({isActive}) => isActive ? style.activeLink : style.navigationIcon} to="/pvndpl-front/content/groups">
                     <Icon36Users3Outline/>
                 </NavLink>
-                <NavLink className={({isActive}) => isActive ? style.activeLink : style.navigationIcon} to="/pvndpl-front/content/photos">
-                    <Icon36Picture/>
-                </NavLink>
             </div>
         );
 }

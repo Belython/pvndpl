@@ -19,15 +19,16 @@ import Groups from "../../components/Groups/Groups";
 import Musics from "../../components/Musics/Musics";
 import Settings from "../../components/Settings/Settings";
 
-const Phone = () => {
-    const [menuActive, setMenuActive] = useState(false)
-    const items = [{value: "Моя страница", href: "/pvndpl-front/content", icon: <FaceIcon/>},
-        {value: "Новости", href: "/pvndpl-front/newsfeed", icon: <FeedIcon/>},
-        {value: "Сообщения", href: "/pvndpl-front/messages", icon: <ChatIcon/>},
-        {value: "Друзья", href: "/pvndpl-front/friends", icon: <GroupIcon/>},
-        {value: "Сообщества", href: "/pvndpl-front/groups", icon: <GroupsIcon/>},
-        {value: "Музыка", href: "/pvndpl-front/musics", icon: <LibraryMusicIcon/>},
-        {value: "Настройки", href: "/pvndpl-front/settings", icon: <SettingsIcon/>}]
+const items = [{value: "Моя страница", href: "/pvndpl-front/content", icon: <FaceIcon/>},
+    {value: "Новости", href: "/pvndpl-front/newsfeed", icon: <FeedIcon/>},
+    {value: "Сообщения", href: "/pvndpl-front/messages", icon: <ChatIcon/>},
+    {value: "Друзья", href: "/pvndpl-front/friends", icon: <GroupIcon/>},
+    {value: "Сообщества", href: "/pvndpl-front/groups", icon: <GroupsIcon/>},
+    {value: "Музыка", href: "/pvndpl-front/musics", icon: <LibraryMusicIcon/>},
+    {value: "Настройки", href: "/pvndpl-front/settings", icon: <SettingsIcon/>}]
+
+const Phone = (props) => {
+    const [menuActive, setMenuActive] = useState(false);
     const updateActive = () => {
         setMenuActive(!menuActive)
     }
@@ -39,7 +40,7 @@ const Phone = () => {
                     <Route path="/pvndpl-front/">
                         <Route path="content/*" element={<Content/>}/>
                         <Route path="newsfeed" element={<NewsFeed/>}/>
-                        <Route path="messages/*" element={<Messages/>}/>
+                        <Route path="messages/*" element={<Messages messages={props.state.dialogsPage} dispatch={props.dispatch}/>}/>
                         <Route path="friends" element={<Friends/>}/>
                         <Route path="groups" element={<Groups/>}/>
                         <Route path="musics" element={<Musics/>}/>

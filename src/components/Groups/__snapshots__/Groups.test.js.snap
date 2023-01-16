@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Groups /> it should mount 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Groups"
+        data-testid="Groups"
+      >
+        <div
+          class="HeaderContent"
+          data-testid="HeaderContent"
+        >
+          <h2
+            class="section"
+          >
+            Группы
+            <span
+              class="count"
+            >
+              4
+            </span>
+          </h2>
+        </div>
+        <div
+          class="groups"
+        >
+          <div
+            class="group"
+          >
+            <div
+              class="preview"
+            >
+              <img
+                class="headerInfoImg"
+                src="https://sun9-20.userapi.com/impg/Fu54-MoiNEDqdJ2KX9Hmac2BmLmW4Q693TllxQ/P25B3yjcQcs.jpg?size=1080x1080&quality=95&sign=dc5622e269dc500621a99bd5b3abf9fa&type=album"
+              />
+              <h2>
+                 ПАТРИОТЫ | РОССИЯ !!!
+              </h2>
+            </div>
+            <div
+              class="info"
+            >
+              <div
+                class="stat"
+              >
+                <p
+                  class="text"
+                >
+                  2000000000
+                </p>
+                <p
+                  class="title"
+                >
+                   Подписчиков
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group"
+          >
+            <div
+              class="preview"
+            >
+              <img
+                class="headerInfoImg"
+                src="https://sun9-11.userapi.com/c108/g3156562/d_adfaa285.jpg"
+              />
+              <h2>
+                 Дмитрий Goblin Пучков
+              </h2>
+            </div>
+            <div
+              class="info"
+            >
+              <div
+                class="stat"
+              >
+                <p
+                  class="text"
+                >
+                  200
+                </p>
+                <p
+                  class="title"
+                >
+                   Подписчиков
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group"
+          >
+            <div
+              class="preview"
+            >
+              <img
+                class="headerInfoImg"
+                src="https://sun9-24.userapi.com/s/v1/ig2/Pgn64dBG4BD5pqg0-x20PSc7cb8gabTEJAakVIQZyZ9MBhU2Q24phSvTNAgMDQE80_JY-Mbs5e3uEn0H4kwCz1VZ.jpg?size=100x100&quality=95&crop=79,66,393,393&ava=1"
+              />
+              <h2>
+                 Минобороны России
+              </h2>
+            </div>
+            <div
+              class="info"
+            >
+              <div
+                class="stat"
+              >
+                <p
+                  class="text"
+                >
+                  20000000000
+                </p>
+                <p
+                  class="title"
+                >
+                   Подписчиков
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group"
+          >
+            <div
+              class="preview"
+            >
+              <img
+                class="headerInfoImg"
+                src="https://sun9-41.userapi.com/s/v1/if1/FM7AKIs9NAMRoDf1UBNl0uAIaubxKV1iln-UpAbpK7nR8EvR7be3wd7S5sLbFQXAddj55u28.jpg?size=100x100&quality=96&crop=457,81,513,513&ava=1"
+              />
+              <h2>
+                Стрелков Игорь Иванович
+              </h2>
+            </div>
+            <div
+              class="info"
+            >
+              <div
+                class="stat"
+              >
+                <p
+                  class="text"
+                >
+                  200000
+                </p>
+                <p
+                  class="title"
+                >
+                   Подписчиков
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="group"
+          >
+            <div
+              class="preview"
+            >
+              <img
+                class="headerInfoImg"
+                src="https://sun9-83.userapi.com/s/v1/ig2/HcH9F3oLxEPQhhfZMvBN8wW4ZPh-Zn4bYAfe5KWafDyi_5UO_KtOziyG27xBqqlHBdLr7hw6ZRJY77kFjpP1oDcz.jpg?size=100x100&quality=95&crop=32,42,577,577&ava=1"
+              />
+              <h2>
+                Джанки
+              </h2>
+            </div>
+            <div
+              class="info"
+            >
+              <div
+                class="stat"
+              >
+                <p
+                  class="text"
+                >
+                  1
+                </p>
+                <p
+                  class="title"
+                >
+                   Подписчиков
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Groups"
+      data-testid="Groups"
+    >
+      <div
+        class="HeaderContent"
+        data-testid="HeaderContent"
+      >
+        <h2
+          class="section"
+        >
+          Группы
+          <span
+            class="count"
+          >
+            4
+          </span>
+        </h2>
+      </div>
+      <div
+        class="groups"
+      >
+        <div
+          class="group"
+        >
+          <div
+            class="preview"
+          >
+            <img
+              class="headerInfoImg"
+              src="https://sun9-20.userapi.com/impg/Fu54-MoiNEDqdJ2KX9Hmac2BmLmW4Q693TllxQ/P25B3yjcQcs.jpg?size=1080x1080&quality=95&sign=dc5622e269dc500621a99bd5b3abf9fa&type=album"
+            />
+            <h2>
+               ПАТРИОТЫ | РОССИЯ !!!
+            </h2>
+          </div>
+          <div
+            class="info"
+          >
+            <div
+              class="stat"
+            >
+              <p
+                class="text"
+              >
+                2000000000
+              </p>
+              <p
+                class="title"
+              >
+                 Подписчиков
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="group"
+        >
+          <div
+            class="preview"
+          >
+            <img
+              class="headerInfoImg"
+              src="https://sun9-11.userapi.com/c108/g3156562/d_adfaa285.jpg"
+            />
+            <h2>
+               Дмитрий Goblin Пучков
+            </h2>
+          </div>
+          <div
+            class="info"
+          >
+            <div
+              class="stat"
+            >
+              <p
+                class="text"
+              >
+                200
+              </p>
+              <p
+                class="title"
+              >
+                 Подписчиков
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="group"
+        >
+          <div
+            class="preview"
+          >
+            <img
+              class="headerInfoImg"
+              src="https://sun9-24.userapi.com/s/v1/ig2/Pgn64dBG4BD5pqg0-x20PSc7cb8gabTEJAakVIQZyZ9MBhU2Q24phSvTNAgMDQE80_JY-Mbs5e3uEn0H4kwCz1VZ.jpg?size=100x100&quality=95&crop=79,66,393,393&ava=1"
+            />
+            <h2>
+               Минобороны России
+            </h2>
+          </div>
+          <div
+            class="info"
+          >
+            <div
+              class="stat"
+            >
+              <p
+                class="text"
+              >
+                20000000000
+              </p>
+              <p
+                class="title"
+              >
+                 Подписчиков
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="group"
+        >
+          <div
+            class="preview"
+          >
+            <img
+              class="headerInfoImg"
+              src="https://sun9-41.userapi.com/s/v1/if1/FM7AKIs9NAMRoDf1UBNl0uAIaubxKV1iln-UpAbpK7nR8EvR7be3wd7S5sLbFQXAddj55u28.jpg?size=100x100&quality=96&crop=457,81,513,513&ava=1"
+            />
+            <h2>
+              Стрелков Игорь Иванович
+            </h2>
+          </div>
+          <div
+            class="info"
+          >
+            <div
+              class="stat"
+            >
+              <p
+                class="text"
+              >
+                200000
+              </p>
+              <p
+                class="title"
+              >
+                 Подписчиков
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="group"
+        >
+          <div
+            class="preview"
+          >
+            <img
+              class="headerInfoImg"
+              src="https://sun9-83.userapi.com/s/v1/ig2/HcH9F3oLxEPQhhfZMvBN8wW4ZPh-Zn4bYAfe5KWafDyi_5UO_KtOziyG27xBqqlHBdLr7hw6ZRJY77kFjpP1oDcz.jpg?size=100x100&quality=95&crop=32,42,577,577&ava=1"
+            />
+            <h2>
+              Джанки
+            </h2>
+          </div>
+          <div
+            class="info"
+          >
+            <div
+              class="stat"
+            >
+              <p
+                class="text"
+              >
+                1
+              </p>
+              <p
+                class="title"
+              >
+                 Подписчиков
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -5,10 +5,9 @@ import NewsFeed from './NewsFeed';
 
 describe('<NewsFeed />', () => {
   test('it should mount', () => {
-    render(<NewsFeed />);
-    
-    const newsFeed = screen.getByTestId('NewsFeed');
+    const element = render(<NewsFeed />);
 
-    expect(newsFeed).toBeInTheDocument();
+    expect(element).toMatchSnapshot();
+
   });
 });

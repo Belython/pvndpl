@@ -1,0 +1,52 @@
+.dialog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-bottom: 1px solid #615ed9;
+}
+
+.dialog:hover {
+    opacity: 0.4;
+    transition: 0.35s;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    margin-right: 1em;
+}
+
+.avatarMessage{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.linkToMessage {
+    text-decoration: none;
+    color: #3e3f5e;
+}
+
+.linkToMessageActive{
+    text-decoration: none;
+    color: #0803d7;
+}
+.lastMessage{
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #8f91ac;
+    max-width: 128px;
+}
+
+.info{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
